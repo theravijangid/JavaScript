@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello jee!</h1>
+    <button id="btn">Submit</button>
+</body>
+<script>
+    const sayravi = function() {
+        console.log("ravi")
+    }
+
+    const changeHeading = function() {
+        document.querySelector('h1').innerHTML = "Ram Ram jee"
+    }
+
+    const changeMe = setTimeout(changeHeading, 2000)
+
+    document.querySelector('#btn').addEventListener('click', function() {
+        clearTimeout(changeMe)
+        console.log("STOPPED")
+    })
+</script>
+</html>
