@@ -23,7 +23,7 @@ function User(username, loginCount, isLoggedIn) {
 
 const userone = new User("ravi",4,true)
 const userTwo = new User("rajesh",9,false)
-console.log(userone.constructor)
+console.log(userone.constructor)  //constructor function or class refers to the function or class that created the instance.
 // console.log(userTwo)
 
 
