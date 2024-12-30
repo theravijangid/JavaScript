@@ -4,7 +4,7 @@ const myArr = [0,1,2,3,4,5]
 const heros = ["iron man", "goku"]
 
 const myArr2 = new Array(1,2,3,4)
-console.log(myArr2[2])
+// console.log(myArr2[2])
 
 
 //Array methods
@@ -13,8 +13,11 @@ console.log(myArr2[2])
 // myArr.push(7)
 // myArr.pop()
 
-// myArr.unshift(9)
-// myArr.shift()
+myArr.unshift(9)
+console.log(myArr)
+myArr.shift()
+console.log(myArr)
+
 
 // console.log(myArr.includes(3))
 // console.log(myArr.indexOf(9))
@@ -26,15 +29,15 @@ console.log(myArr2[2])
 
 //SLICE , SPLICE
 
-console.log("A ",myArr)
+// console.log("A ",myArr)
 
-const myn1 = myArr.slice(1,3)
+// const myn1 = myArr.slice(1,3)
 
-console.log(myn1)
+// console.log(myn1)
 
-console.log("B ",myArr)
+// console.log("B ",myArr)
 
 
-const myn2 = myArr.splice(1,3)
-console.log("C ",myArr)
-console.log(myn2)
+// const myn2 = myArr.splice(1,3)
+// console.log("C ",myArr)
+// console.log(myn2)
